@@ -279,3 +279,25 @@ function Circle(radius) {
 }
 
 const myCircle = new Circle(1);
+
+
+
+
+// primitives are coppied by their reference types 
+// objects are copied by their reference types
+/*
+let x = { value: 10 }
+let y = x
+x.value = 20;
+*/
+
+
+
+// clone a object 
+//const another = Object.assign({}, circle);
+
+
+// string primitive 
+const message = 'hello world';
+// string object 
+const word = new String('hello');
